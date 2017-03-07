@@ -13,6 +13,18 @@ Clyent is a python command line utility library for binstar,
 binstar-build, and chalmers.
 
 
+Current build status
+====================
+
+Linux: [![Circle CI](https://circleci.com/gh/conda-forge/clyent-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/clyent-feedstock)
+OSX: [![TravisCI](https://travis-ci.org/conda-forge/clyent-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/clyent-feedstock)
+Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/clyent-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/clyent-feedstock/branch/master)
+
+Current release info
+====================
+Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/clyent/badges/version.svg)](https://anaconda.org/conda-forge/clyent)
+Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/clyent/badges/downloads.svg)](https://anaconda.org/conda-forge/clyent)
+
 Installing clyent
 =================
 
@@ -33,7 +45,6 @@ It is possible to list all of the versions of `clyent` available on your platfor
 ```
 conda search clyent --channel conda-forge
 ```
-
 
 
 About conda-forge
@@ -69,18 +80,6 @@ Terminology
 
 **conda-forge** - the place where the feedstock and smithy live and work to
                   produce the finished article (built conda distributions)
-
-Current build status
-====================
-
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/clyent-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/clyent-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/clyent-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/clyent-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/clyent-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/clyent-feedstock/branch/master)
-
-Current release info
-====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/clyent/badges/version.svg)](https://anaconda.org/conda-forge/clyent)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/clyent/badges/downloads.svg)](https://anaconda.org/conda-forge/clyent)
 
 
 Updating clyent-feedstock
