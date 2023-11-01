@@ -20,10 +20,13 @@ build:
 requirements:
   host:
     - pip
-    - python
+    # the python bound is probably lower than 3.6
+    # but with conda-forge tooling of Nov 2023, I don't want
+    # to let really old pythons install this
+    - python >=3.8
     - setuptools
   run:
-    - python
+    - python >=3.8
     - setuptools
 
 test:
@@ -32,7 +35,8 @@ test:
 
 about:
   home: https://github.com/Anaconda-Platform/clyent
-  license: BSD 3-Clause
+  license: BSD-3-Clause
+  license_file: LICENSE
   summary: Command line client library for windows and posix
   description: |
     Clyent is a python command line utility library for binstar,
