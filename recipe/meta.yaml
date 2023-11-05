@@ -11,6 +11,7 @@ source:
   sha256: a4c33bd70fd3c53f133eb301db7b83acb7cbe6d1e405158b8f5582aa888d3aa3
   patches:
     - 0001-Remove-unused-module-imp-for-python-3.12-compatibili.patch
+    - no_versioneer.py
 
 build:
   noarch: python
