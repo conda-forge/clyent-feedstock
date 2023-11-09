@@ -1,0 +1,24 @@
+From e319bc50284765305b59b580864fd79bd6189aca Mon Sep 17 00:00:00 2001
+From: Mark Harfouche <mark.harfouche@gmail.com>
+Date: Wed, 1 Nov 2023 06:57:42 -0400
+Subject: [PATCH] Remove unused module imp for python 3.12 compatibility
+
+---
+ clyent/__init__.py | 1 -
+ 1 file changed, 1 deletion(-)
+
+diff --git a/clyent/__init__.py b/clyent/__init__.py
+index b27edf3..1fb3bda 100644
+--- a/clyent/__init__.py
++++ b/clyent/__init__.py
+@@ -2,7 +2,6 @@ from __future__ import absolute_import, print_function, unicode_literals
+ 
+ import argparse
+ from collections import OrderedDict
+-import imp
+ import json
+ import logging
+ import os
+-- 
+2.42.0
+
